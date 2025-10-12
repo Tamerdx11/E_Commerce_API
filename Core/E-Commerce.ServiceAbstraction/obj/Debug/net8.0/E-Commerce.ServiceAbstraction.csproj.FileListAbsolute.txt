@@ -13,3 +13,4 @@ C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.ServiceAbstraction\obj\
 C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.ServiceAbstraction\obj\Debug\net8.0\refint\E-Commerce.ServiceAbstraction.dll
 C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.ServiceAbstraction\obj\Debug\net8.0\E-Commerce.ServiceAbstraction.pdb
 C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.ServiceAbstraction\obj\Debug\net8.0\ref\E-Commerce.ServiceAbstraction.dll
+C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.ServiceAbstraction\obj\Debug\net8.0\E-Commerce.ServiceAbstraction.sourcelink.json

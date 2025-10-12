@@ -14,6 +14,7 @@ public static class PersistanceServiceExtensions
             );
 
         services.AddScoped<IDbInitializer, DbInitializer>();
+        //services.AddScoped<IUnitOfWork, IUnitOfWork>();
 
         return services;
     }

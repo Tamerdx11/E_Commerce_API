@@ -9,3 +9,4 @@ C:\Users\Al-Quds\source\repos\E-Commerce\E-Commerce.Shared\obj\Debug\net8.0\E-Co
 C:\Users\Al-Quds\source\repos\E-Commerce\E-Commerce.Shared\obj\Debug\net8.0\refint\E-Commerce.Shared.dll
 C:\Users\Al-Quds\source\repos\E-Commerce\E-Commerce.Shared\obj\Debug\net8.0\E-Commerce.Shared.pdb
 C:\Users\Al-Quds\source\repos\E-Commerce\E-Commerce.Shared\obj\Debug\net8.0\ref\E-Commerce.Shared.dll
+C:\Users\Al-Quds\source\repos\E-Commerce\E-Commerce.Shared\obj\Debug\net8.0\E-Commerce.Shared.sourcelink.json

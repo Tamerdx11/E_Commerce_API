@@ -15,3 +15,4 @@ C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\E-Commerce.Presentation.
 C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\E-Commerce.Presentation.API\obj\Debug\net8.0\refint\E-Commerce.Presentation.API.dll
 C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\E-Commerce.Presentation.API\obj\Debug\net8.0\E-Commerce.Presentation.API.pdb
 C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\E-Commerce.Presentation.API\obj\Debug\net8.0\ref\E-Commerce.Presentation.API.dll
+C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\E-Commerce.Presentation.API\obj\Debug\net8.0\E-Commerce.Presentation.API.sourcelink.json

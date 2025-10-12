@@ -1,0 +1,31 @@
+﻿using E_Commerce.ServiceAbstraction;
+using E_Commerce.Shared.DataTransferObjects.Products;
+using Microsoft.AspNetCore.Mvc;
+
+namespace E_Commerce.Presentation.API.Controller;
+
+public class ProductsController(IProductService service)
+    : APIBaseController
+{
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<ProductResponse>>> Get(CancellationToken cancellationToken = default)
+    {
+        return Ok(await service.GetProductsAsync(cancellationToken));
+    }
+
+    [HttpGet("{id:int}")]
+    public async Task<ActionResult<ProductResponse>> Get(int id,CancellationToken cancellationToken = default)
+    {
+        return Ok(await service.GetByIdAsync(id, cancellationToken));
+    }
+    [HttpGet("Brands")]
+    public async Task<ActionResult<IEnumerable<BrandResponse>>> GetBrands(CancellationToken cancellationToken = default)
+    {
+        return Ok(await service.GetBrandsAsync(cancellationToken));
+    }
+    [HttpGet("Types")]
+    public async Task<ActionResult<IEnumerable<TypeResponse>>> GetTypes(CancellationToken cancellationToken = default)
+    {
+        return Ok(await service.GetTypesAsync(cancellationToken));
+    }
+}

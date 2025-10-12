@@ -17,3 +17,4 @@ C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.Service\obj\Debug\net8.
 C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.Service\obj\Debug\net8.0\refint\E-Commerce.Service.dll
 C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.Service\obj\Debug\net8.0\E-Commerce.Service.pdb
 C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.Service\obj\Debug\net8.0\ref\E-Commerce.Service.dll
+C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.Service\obj\Debug\net8.0\E-Commerce.Service.sourcelink.json
