@@ -1,4 +1,5 @@
 ﻿using E_Commerce.ServiceAbstraction;
+using E_Commerce.Shared;
 using E_Commerce.Shared.DataTransferObjects.Products;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,9 +9,9 @@ public class ProductsController(IProductService service)
     : APIBaseController
 {
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<ProductResponse>>> Get(CancellationToken cancellationToken = default)
+    public async Task<ActionResult<PaginatedResult<ProductResponse>>> Get([FromQuery] ProductQueryParameters parameters,CancellationToken cancellationToken = default)
     {
-        return Ok(await service.GetProductsAsync(cancellationToken));
+        return Ok(await service.GetProductsAsync(parameters, cancellationToken));
     }
 
     [HttpGet("{id:int}")]

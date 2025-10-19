@@ -1,4 +1,7 @@
-﻿namespace E_Commerce.Service.Services;
+﻿using E_Commerce.Service.Specifications;
+using E_Commerce.Shared;
+
+namespace E_Commerce.Service.Services;
 
 public class ProductService(IUnitOfWork unitOfWork, IMapper mapper)
     : IProductService
@@ -11,14 +14,20 @@ public class ProductService(IUnitOfWork unitOfWork, IMapper mapper)
 
     public async Task<ProductResponse?> GetByIdAsync(int id, CancellationToken cancellationToken = default)
     {
-        var product = await unitOfWork.GetRepository<Product>().GetByIdAsync(id, cancellationToken);
+        var product = await unitOfWork.GetRepository<Product>()
+            .GetAsync(new ProductWithBrandTypeSpecification(id), cancellationToken);
         return mapper.Map<ProductResponse>(product);
     }
 
-    public async Task<IEnumerable<ProductResponse>> GetProductsAsync(CancellationToken cancellationToken = default)
+    public async Task<PaginatedResult<ProductResponse>> GetProductsAsync(ProductQueryParameters parameters, CancellationToken cancellationToken = default)
     {
-        var products = await unitOfWork.GetRepository<Product>().GetAllAsync(cancellationToken);
-        return mapper.Map<IEnumerable<ProductResponse>>(products);
+        var spec = new ProductWithBrandTypeSpecification(parameters);
+        var products = await unitOfWork.GetRepository<Product>()
+            .GetAllAsync(spec, cancellationToken);
+        var data = mapper.Map<IEnumerable<ProductResponse>>(products);
+        var totalCount = await unitOfWork.GetRepository<Product>()
+            .CountAsync(new ProductCountSpecification(parameters), cancellationToken);
+        return new(parameters.PageIndex, data.Count(), totalCount, data);
     }
 
     public async Task<IEnumerable<TypeResponse>> GetTypesAsync(CancellationToken cancellationToken = default)
