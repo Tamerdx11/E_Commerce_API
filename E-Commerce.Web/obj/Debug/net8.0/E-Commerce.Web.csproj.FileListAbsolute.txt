@@ -159,3 +159,5 @@ C:\Users\Al-Quds\source\repos\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtime
 C:\Users\Al-Quds\source\repos\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\E-Commerce.Web.sourcelink.json
 C:\Users\Al-Quds\source\repos\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Al-Quds\source\repos\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.Web.staticwebassets.runtime.json
+C:\Users\Al-Quds\source\repos\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Al-Quds\source\repos\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\StackExchange.Redis.dll

@@ -3,52 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E8A0E93-B69B-4328-8564-7F3C66B604FD}|Core\\E-Commerce.Service\\E-Commerce.Service.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\core\\e-commerce.service\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8A0E93-B69B-4328-8564-7F3C66B604FD}|Core\\E-Commerce.Service\\E-Commerce.Service.csproj|solutionrelative:core\\e-commerce.service\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{946E80C3-85DF-4D46-998C-104F112E2B88}|Core\\E-Commerce.ServiceAbstraction\\E-Commerce.ServiceAbstraction.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\core\\e-commerce.serviceabstraction\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{946E80C3-85DF-4D46-998C-104F112E2B88}|Core\\E-Commerce.ServiceAbstraction\\E-Commerce.ServiceAbstraction.csproj|solutionrelative:core\\e-commerce.serviceabstraction\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E8A0E93-B69B-4328-8564-7F3C66B604FD}|Core\\E-Commerce.Service\\E-Commerce.Service.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\core\\e-commerce.service\\specifications\\productcountspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8A0E93-B69B-4328-8564-7F3C66B604FD}|Core\\E-Commerce.Service\\E-Commerce.Service.csproj|solutionrelative:core\\e-commerce.service\\specifications\\productcountspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E8A0E93-B69B-4328-8564-7F3C66B604FD}|Core\\E-Commerce.Service\\E-Commerce.Service.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\core\\e-commerce.service\\specifications\\productwithbrandtypespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8A0E93-B69B-4328-8564-7F3C66B604FD}|Core\\E-Commerce.Service\\E-Commerce.Service.csproj|solutionrelative:core\\e-commerce.service\\specifications\\productwithbrandtypespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5ECE8CD-ACC7-494F-954B-14FCC9E3EA82}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\ecommerce.persistance\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5ECE8CD-ACC7-494F-954B-14FCC9E3EA82}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|solutionrelative:infrastructure\\ecommerce.persistance\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ABFD5BF-F545-4369-8AB6-090B3254C302}|Core\\E-Commerce.Domain\\E-Commerce.Domain.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\core\\e-commerce.domain\\contracts\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ABFD5BF-F545-4369-8AB6-090B3254C302}|Core\\E-Commerce.Domain\\E-Commerce.Domain.csproj|solutionrelative:core\\e-commerce.domain\\contracts\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5ECE8CD-ACC7-494F-954B-14FCC9E3EA82}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\ecommerce.persistance\\services\\cashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5ECE8CD-ACC7-494F-954B-14FCC9E3EA82}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|solutionrelative:infrastructure\\ecommerce.persistance\\services\\cashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B2F01A1-4259-4A01-A5E7-6CDA628314BF}|Infrastructure\\E-Commerce.Presentation.API\\E-Commerce.Presentation.API.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\e-commerce.presentation.api\\controller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B2F01A1-4259-4A01-A5E7-6CDA628314BF}|Infrastructure\\E-Commerce.Presentation.API\\E-Commerce.Presentation.API.csproj|solutionrelative:infrastructure\\e-commerce.presentation.api\\controller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80B0B932-FD01-42AA-9FB0-3C5670251533}|E-Commerce.Shared\\E-Commerce.Shared.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\e-commerce.shared\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80B0B932-FD01-42AA-9FB0-3C5670251533}|E-Commerce.Shared\\E-Commerce.Shared.csproj|solutionrelative:e-commerce.shared\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B2F01A1-4259-4A01-A5E7-6CDA628314BF}|Infrastructure\\E-Commerce.Presentation.API\\E-Commerce.Presentation.API.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\e-commerce.presentation.api\\attributes\\rediscachattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2F01A1-4259-4A01-A5E7-6CDA628314BF}|Infrastructure\\E-Commerce.Presentation.API\\E-Commerce.Presentation.API.csproj|solutionrelative:infrastructure\\e-commerce.presentation.api\\attributes\\rediscachattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E8A0E93-B69B-4328-8564-7F3C66B604FD}|Core\\E-Commerce.Service\\E-Commerce.Service.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\core\\e-commerce.service\\specifications\\basespecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8A0E93-B69B-4328-8564-7F3C66B604FD}|Core\\E-Commerce.Service\\E-Commerce.Service.csproj|solutionrelative:core\\e-commerce.service\\specifications\\basespecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5ECE8CD-ACC7-494F-954B-14FCC9E3EA82}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\ecommerce.persistance\\dependencyinjection\\persistanceserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5ECE8CD-ACC7-494F-954B-14FCC9E3EA82}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|solutionrelative:infrastructure\\ecommerce.persistance\\dependencyinjection\\persistanceserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80B0B932-FD01-42AA-9FB0-3C5670251533}|E-Commerce.Shared\\E-Commerce.Shared.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\e-commerce.shared\\datatransferobjects\\products\\productqueryparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80B0B932-FD01-42AA-9FB0-3C5670251533}|E-Commerce.Shared\\E-Commerce.Shared.csproj|solutionrelative:e-commerce.shared\\datatransferobjects\\products\\productqueryparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5ECE8CD-ACC7-494F-954B-14FCC9E3EA82}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\ecommerce.persistance\\repositories\\specificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5ECE8CD-ACC7-494F-954B-14FCC9E3EA82}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|solutionrelative:infrastructure\\ecommerce.persistance\\repositories\\specificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ABFD5BF-F545-4369-8AB6-090B3254C302}|Core\\E-Commerce.Domain\\E-Commerce.Domain.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\core\\e-commerce.domain\\contracts\\ispecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ABFD5BF-F545-4369-8AB6-090B3254C302}|Core\\E-Commerce.Domain\\E-Commerce.Domain.csproj|solutionrelative:core\\e-commerce.domain\\contracts\\ispecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{946E80C3-85DF-4D46-998C-104F112E2B88}|Core\\E-Commerce.ServiceAbstraction\\E-Commerce.ServiceAbstraction.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\core\\e-commerce.serviceabstraction\\icashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946E80C3-85DF-4D46-998C-104F112E2B88}|Core\\E-Commerce.ServiceAbstraction\\E-Commerce.ServiceAbstraction.csproj|solutionrelative:core\\e-commerce.serviceabstraction\\icashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,34 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductCountSpecification.cs",
-              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Service\\Specifications\\ProductCountSpecification.cs",
-              "RelativeDocumentMoniker": "Core\\E-Commerce.Service\\Specifications\\ProductCountSpecification.cs",
-              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Service\\Specifications\\ProductCountSpecification.cs",
-              "RelativeToolTip": "Core\\E-Commerce.Service\\Specifications\\ProductCountSpecification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T20:28:35.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\ECommerce.Persistance\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Persistance\\Repositories\\Repository.cs",
-              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\ECommerce.Persistance\\Repositories\\Repository.cs",
-              "RelativeToolTip": "Infrastructure\\ECommerce.Persistance\\Repositories\\Repository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowB8AAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T20:24:41.113Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -100,132 +46,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Domain\\Contracts\\IRepository.cs",
-              "RelativeDocumentMoniker": "Core\\E-Commerce.Domain\\Contracts\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Domain\\Contracts\\IRepository.cs",
-              "RelativeToolTip": "Core\\E-Commerce.Domain\\Contracts\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T20:24:13.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PaginatedResult.cs",
-              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\E-Commerce.Shared\\PaginatedResult.cs",
-              "RelativeDocumentMoniker": "E-Commerce.Shared\\PaginatedResult.cs",
-              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\E-Commerce.Shared\\PaginatedResult.cs",
-              "RelativeToolTip": "E-Commerce.Shared\\PaginatedResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T20:15:37.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SpecificationEvaluator.cs",
-              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\ECommerce.Persistance\\Repositories\\SpecificationEvaluator.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Persistance\\Repositories\\SpecificationEvaluator.cs",
-              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\ECommerce.Persistance\\Repositories\\SpecificationEvaluator.cs",
-              "RelativeToolTip": "Infrastructure\\ECommerce.Persistance\\Repositories\\SpecificationEvaluator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T19:19:37.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BaseSpecifications.cs",
-              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Service\\Specifications\\BaseSpecifications.cs",
-              "RelativeDocumentMoniker": "Core\\E-Commerce.Service\\Specifications\\BaseSpecifications.cs",
-              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Service\\Specifications\\BaseSpecifications.cs",
-              "RelativeToolTip": "Core\\E-Commerce.Service\\Specifications\\BaseSpecifications.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T19:04:35.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ISpecification.cs",
-              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Domain\\Contracts\\ISpecification.cs",
-              "RelativeDocumentMoniker": "Core\\E-Commerce.Domain\\Contracts\\ISpecification.cs",
-              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Domain\\Contracts\\ISpecification.cs",
-              "RelativeToolTip": "Core\\E-Commerce.Domain\\Contracts\\ISpecification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T19:03:23.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductWithBrandTypeSpecification.cs",
-              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Service\\Specifications\\ProductWithBrandTypeSpecification.cs",
-              "RelativeDocumentMoniker": "Core\\E-Commerce.Service\\Specifications\\ProductWithBrandTypeSpecification.cs",
-              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Service\\Specifications\\ProductWithBrandTypeSpecification.cs",
-              "RelativeToolTip": "Core\\E-Commerce.Service\\Specifications\\ProductWithBrandTypeSpecification.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "PersistanceServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\ECommerce.Persistance\\DependencyInjection\\PersistanceServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Persistance\\DependencyInjection\\PersistanceServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\ECommerce.Persistance\\DependencyInjection\\PersistanceServiceExtensions.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerce.Persistance\\DependencyInjection\\PersistanceServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T16:16:55.842Z",
+              "WhenOpened": "2025-10-22T16:32:01.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Service\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Core\\E-Commerce.Service\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Service\\Services\\ProductService.cs",
-              "RelativeToolTip": "Core\\E-Commerce.Service\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwB0AAABJAAAAAAAAAA==",
+              "Title": "CashService.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\ECommerce.Persistance\\Services\\CashService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Persistance\\Services\\CashService.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\ECommerce.Persistance\\Services\\CashService.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerce.Persistance\\Services\\CashService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T16:16:08.135Z",
+              "WhenOpened": "2025-10-22T16:18:15.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICashService.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.ServiceAbstraction\\ICashService.cs",
+              "RelativeDocumentMoniker": "Core\\E-Commerce.ServiceAbstraction\\ICashService.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.ServiceAbstraction\\ICashService.cs",
+              "RelativeToolTip": "Core\\E-Commerce.ServiceAbstraction\\ICashService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T16:11:14.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.ServiceAbstraction\\IProductService.cs",
-              "RelativeDocumentMoniker": "Core\\E-Commerce.ServiceAbstraction\\IProductService.cs",
-              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.ServiceAbstraction\\IProductService.cs",
-              "RelativeToolTip": "Core\\E-Commerce.ServiceAbstraction\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T16:15:17.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductQueryParameters.cs",
-              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\E-Commerce.Shared\\DataTransferObjects\\Products\\ProductQueryParameters.cs",
-              "RelativeDocumentMoniker": "E-Commerce.Shared\\DataTransferObjects\\Products\\ProductQueryParameters.cs",
-              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\E-Commerce.Shared\\DataTransferObjects\\Products\\ProductQueryParameters.cs",
-              "RelativeToolTip": "E-Commerce.Shared\\DataTransferObjects\\Products\\ProductQueryParameters.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T16:12:44.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Presentation.API\\Controller\\ProductsController.cs",
               "RelativeDocumentMoniker": "Infrastructure\\E-Commerce.Presentation.API\\Controller\\ProductsController.cs",
               "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Presentation.API\\Controller\\ProductsController.cs",
               "RelativeToolTip": "Infrastructure\\E-Commerce.Presentation.API\\Controller\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T16:11:55.74Z",
+              "WhenOpened": "2025-10-22T15:48:13.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RedisCachAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Presentation.API\\Attributes\\RedisCachAttribute.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\E-Commerce.Presentation.API\\Attributes\\RedisCachAttribute.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Presentation.API\\Attributes\\RedisCachAttribute.cs",
+              "RelativeToolTip": "Infrastructure\\E-Commerce.Presentation.API\\Attributes\\RedisCachAttribute.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB8AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:46:46.843Z",
               "EditorCaption": ""
             }
           ]

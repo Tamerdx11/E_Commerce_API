@@ -22,11 +22,15 @@ public class ProductService(IUnitOfWork unitOfWork, IMapper mapper)
     public async Task<PaginatedResult<ProductResponse>> GetProductsAsync(ProductQueryParameters parameters, CancellationToken cancellationToken = default)
     {
         var spec = new ProductWithBrandTypeSpecification(parameters);
+
         var products = await unitOfWork.GetRepository<Product>()
             .GetAllAsync(spec, cancellationToken);
+
         var data = mapper.Map<IEnumerable<ProductResponse>>(products);
+
         var totalCount = await unitOfWork.GetRepository<Product>()
             .CountAsync(new ProductCountSpecification(parameters), cancellationToken);
+
         return new(parameters.PageIndex, data.Count(), totalCount, data);
     }
 

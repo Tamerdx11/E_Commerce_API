@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2F01A1-4259-4A01-A5E7-6CDA628314BF}|Infrastructure\\E-Commerce.Presentation.API\\E-Commerce.Presentation.API.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\e-commerce.presentation.api\\attributes\\rediscachattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2F01A1-4259-4A01-A5E7-6CDA628314BF}|Infrastructure\\E-Commerce.Presentation.API\\E-Commerce.Presentation.API.csproj|solutionrelative:infrastructure\\e-commerce.presentation.api\\attributes\\rediscachattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5ECE8CD-ACC7-494F-954B-14FCC9E3EA82}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\ecommerce.persistance\\dependencyinjection\\persistanceserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5ECE8CD-ACC7-494F-954B-14FCC9E3EA82}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|solutionrelative:infrastructure\\ecommerce.persistance\\dependencyinjection\\persistanceserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5ECE8CD-ACC7-494F-954B-14FCC9E3EA82}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\ecommerce.persistance\\services\\cashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5ECE8CD-ACC7-494F-954B-14FCC9E3EA82}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|solutionrelative:infrastructure\\ecommerce.persistance\\services\\cashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2F01A1-4259-4A01-A5E7-6CDA628314BF}|Infrastructure\\E-Commerce.Presentation.API\\E-Commerce.Presentation.API.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\e-commerce.presentation.api\\controller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2F01A1-4259-4A01-A5E7-6CDA628314BF}|Infrastructure\\E-Commerce.Presentation.API\\E-Commerce.Presentation.API.csproj|solutionrelative:infrastructure\\e-commerce.presentation.api\\controller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946E80C3-85DF-4D46-998C-104F112E2B88}|Core\\E-Commerce.ServiceAbstraction\\E-Commerce.ServiceAbstraction.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\core\\e-commerce.serviceabstraction\\icashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946E80C3-85DF-4D46-998C-104F112E2B88}|Core\\E-Commerce.ServiceAbstraction\\E-Commerce.ServiceAbstraction.csproj|solutionrelative:core\\e-commerce.serviceabstraction\\icashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +43,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersistanceServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\ECommerce.Persistance\\DependencyInjection\\PersistanceServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Persistance\\DependencyInjection\\PersistanceServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\ECommerce.Persistance\\DependencyInjection\\PersistanceServiceExtensions.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerce.Persistance\\DependencyInjection\\PersistanceServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T16:32:01.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CashService.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\ECommerce.Persistance\\Services\\CashService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Persistance\\Services\\CashService.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\ECommerce.Persistance\\Services\\CashService.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerce.Persistance\\Services\\CashService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T16:18:15.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICashService.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.ServiceAbstraction\\ICashService.cs",
+              "RelativeDocumentMoniker": "Core\\E-Commerce.ServiceAbstraction\\ICashService.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.ServiceAbstraction\\ICashService.cs",
+              "RelativeToolTip": "Core\\E-Commerce.ServiceAbstraction\\ICashService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T16:11:14.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Presentation.API\\Controller\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\E-Commerce.Presentation.API\\Controller\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Presentation.API\\Controller\\ProductsController.cs",
+              "RelativeToolTip": "Infrastructure\\E-Commerce.Presentation.API\\Controller\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:48:13.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RedisCachAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Presentation.API\\Attributes\\RedisCachAttribute.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\E-Commerce.Presentation.API\\Attributes\\RedisCachAttribute.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Presentation.API\\Attributes\\RedisCachAttribute.cs",
+              "RelativeToolTip": "Infrastructure\\E-Commerce.Presentation.API\\Attributes\\RedisCachAttribute.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:46:46.843Z",
+              "EditorCaption": ""
             }
           ]
         }

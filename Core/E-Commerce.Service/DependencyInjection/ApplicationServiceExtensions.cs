@@ -9,7 +9,7 @@ public static class ApplicationServiceExtensions
     public static IServiceCollection AddApplicationServices(this IServiceCollection services) 
     {
         services.AddScoped<IProductService, ProductService>();
-        //services.AddScoped<IUnitOfWork, IUnitOfWork>();
+        services.AddScoped<IBasketService, BasketService>();
         services.AddAutoMapper(Assembly.GetExecutingAssembly());
         return services;
     }

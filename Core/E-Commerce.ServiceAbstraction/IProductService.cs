@@ -9,6 +9,4 @@ public interface IProductService
     Task<PaginatedResult<ProductResponse>> GetProductsAsync(ProductQueryParameters parameters, CancellationToken cancellationToken = default);
     Task<IEnumerable<BrandResponse>> GetBrandsAsync(CancellationToken cancellationToken = default);
     Task<IEnumerable<TypeResponse>> GetTypesAsync(CancellationToken cancellationToken = default);
-
-
 }

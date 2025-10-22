@@ -12,6 +12,12 @@ public class ProductWithBrandTypeSpecification : BaseSpecifications<Product>
         ApplyPagination(parameters.PageSize, parameters.PageIndex);
         Sort(parameters);
     }
+    public ProductWithBrandTypeSpecification(int id)
+        : base(p => p.Id == id)
+    {
+        AddInclude(p=>p.ProductBrand);
+        AddInclude(p => p.ProductType);
+    }
 
     private void Sort(ProductQueryParameters parameters)
     {
@@ -42,10 +48,4 @@ public class ProductWithBrandTypeSpecification : BaseSpecifications<Product>
                  && (string.IsNullOrWhiteSpace(parameters.Search) || p.Name.Contains(parameters.Search));
     }
 
-    public ProductWithBrandTypeSpecification(int id)
-        : base(p => p.Id == id)
-    {
-        AddInclude(p=>p.ProductBrand);
-        AddInclude(p => p.ProductType);
-    }
 }

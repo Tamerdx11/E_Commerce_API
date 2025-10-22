@@ -49,6 +49,7 @@ internal class Program
 
 
         app.MapControllers();
+        //app.UseResponseCaching();
 
         app.Run();
     }
