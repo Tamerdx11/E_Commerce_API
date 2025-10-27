@@ -19,7 +19,8 @@ public class ProductsController(IProductService service)
     [HttpGet("{id:int}")]
     public async Task<ActionResult<ProductResponse>> Get(int id,CancellationToken cancellationToken = default)
     {
-        return Ok(await service.GetByIdAsync(id, cancellationToken));
+        var result = await service.GetByIdAsync(id, cancellationToken);
+        return Ok(result);
     }
     [HttpGet("Brands")]
     public async Task<ActionResult<IEnumerable<BrandResponse>>> GetBrands(CancellationToken cancellationToken = default)
