@@ -7,16 +7,36 @@
       "RelativeMoniker": "D:0:0:{0A766838-5C30-4B7E-B2CA-667491B65848}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A766838-5C30-4B7E-B2CA-667491B65848}|E-Commerce.Web\\E-Commerce.Web.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\e-commerce.web\\handlers\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A766838-5C30-4B7E-B2CA-667491B65848}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\handlers\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B2F01A1-4259-4A01-A5E7-6CDA628314BF}|Infrastructure\\E-Commerce.Presentation.API\\E-Commerce.Presentation.API.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\e-commerce.presentation.api\\controller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2F01A1-4259-4A01-A5E7-6CDA628314BF}|Infrastructure\\E-Commerce.Presentation.API\\E-Commerce.Presentation.API.csproj|solutionrelative:infrastructure\\e-commerce.presentation.api\\controller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A766838-5C30-4B7E-B2CA-667491B65848}|E-Commerce.Web\\E-Commerce.Web.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\e-commerce.web\\middlewares\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A766838-5C30-4B7E-B2CA-667491B65848}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\middlewares\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E8A0E93-B69B-4328-8564-7F3C66B604FD}|Core\\E-Commerce.Service\\E-Commerce.Service.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\core\\e-commerce.service\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8A0E93-B69B-4328-8564-7F3C66B604FD}|Core\\E-Commerce.Service\\E-Commerce.Service.csproj|solutionrelative:core\\e-commerce.service\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E8A0E93-B69B-4328-8564-7F3C66B604FD}|Core\\E-Commerce.Service\\E-Commerce.Service.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\core\\e-commerce.service\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8A0E93-B69B-4328-8564-7F3C66B604FD}|Core\\E-Commerce.Service\\E-Commerce.Service.csproj|solutionrelative:core\\e-commerce.service\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B2F01A1-4259-4A01-A5E7-6CDA628314BF}|Infrastructure\\E-Commerce.Presentation.API\\E-Commerce.Presentation.API.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\e-commerce.presentation.api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2F01A1-4259-4A01-A5E7-6CDA628314BF}|Infrastructure\\E-Commerce.Presentation.API\\E-Commerce.Presentation.API.csproj|solutionrelative:infrastructure\\e-commerce.presentation.api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E839B456-3880-49C8-A666-E82C034AD049}|Infrastructure\\E-Commerce.Infrastructure.Service\\E-Commerce.Infrastructure.Service.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\e-commerce.infrastructure.service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E839B456-3880-49C8-A666-E82C034AD049}|Infrastructure\\E-Commerce.Infrastructure.Service\\E-Commerce.Infrastructure.Service.csproj|solutionrelative:infrastructure\\e-commerce.infrastructure.service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E839B456-3880-49C8-A666-E82C034AD049}|Infrastructure\\E-Commerce.Infrastructure.Service\\E-Commerce.Infrastructure.Service.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\e-commerce.infrastructure.service\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E839B456-3880-49C8-A666-E82C034AD049}|Infrastructure\\E-Commerce.Infrastructure.Service\\E-Commerce.Infrastructure.Service.csproj|solutionrelative:infrastructure\\e-commerce.infrastructure.service\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A0E93-B69B-4328-8564-7F3C66B604FD}|Core\\E-Commerce.Service\\E-Commerce.Service.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\core\\e-commerce.service\\contracts\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8A0E93-B69B-4328-8564-7F3C66B604FD}|Core\\E-Commerce.Service\\E-Commerce.Service.csproj|solutionrelative:core\\e-commerce.service\\contracts\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946E80C3-85DF-4D46-998C-104F112E2B88}|Core\\E-Commerce.ServiceAbstraction\\E-Commerce.ServiceAbstraction.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\core\\e-commerce.serviceabstraction\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946E80C3-85DF-4D46-998C-104F112E2B88}|Core\\E-Commerce.ServiceAbstraction\\E-Commerce.ServiceAbstraction.csproj|solutionrelative:core\\e-commerce.serviceabstraction\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5ECE8CD-ACC7-494F-954B-14FCC9E3EA82}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|c:\\users\\al-quds\\source\\repos\\e-commerce\\infrastructure\\ecommerce.persistance\\dependencyinjection\\persistanceserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5ECE8CD-ACC7-494F-954B-14FCC9E3EA82}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|solutionrelative:infrastructure\\ecommerce.persistance\\dependencyinjection\\persistanceserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,40 +63,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ExceptionHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\E-Commerce.Web\\Handlers\\ExceptionHandler.cs",
-              "RelativeDocumentMoniker": "E-Commerce.Web\\Handlers\\ExceptionHandler.cs",
-              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\E-Commerce.Web\\Handlers\\ExceptionHandler.cs",
-              "RelativeToolTip": "E-Commerce.Web\\Handlers\\ExceptionHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Presentation.API\\Controller\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\E-Commerce.Presentation.API\\Controller\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Presentation.API\\Controller\\ProductsController.cs",
+              "RelativeToolTip": "Infrastructure\\E-Commerce.Presentation.API\\Controller\\ProductsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T21:26:00.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Service\\Exceptions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "Core\\E-Commerce.Service\\Exceptions\\NotFoundException.cs",
-              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Service\\Exceptions\\NotFoundException.cs",
-              "RelativeToolTip": "Core\\E-Commerce.Service\\Exceptions\\NotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T20:00:40.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GlobalExceptionHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\E-Commerce.Web\\Middlewares\\GlobalExceptionHandler.cs",
-              "RelativeDocumentMoniker": "E-Commerce.Web\\Middlewares\\GlobalExceptionHandler.cs",
-              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\E-Commerce.Web\\Middlewares\\GlobalExceptionHandler.cs",
-              "RelativeToolTip": "E-Commerce.Web\\Middlewares\\GlobalExceptionHandler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T18:38:37.492Z",
+              "WhenOpened": "2025-11-02T21:13:28.906Z",
               "EditorCaption": ""
             },
             {
@@ -87,9 +81,100 @@
               "RelativeDocumentMoniker": "E-Commerce.Web\\Program.cs",
               "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\E-Commerce.Web\\Program.cs",
               "RelativeToolTip": "E-Commerce.Web\\Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwB4AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAIAwwD4AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T18:09:16.323Z",
+              "WhenOpened": "2025-11-02T19:22:08.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Infrastructure.Service\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\E-Commerce.Infrastructure.Service\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Infrastructure.Service\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\E-Commerce.Infrastructure.Service\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T19:19:27.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Infrastructure.Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\E-Commerce.Infrastructure.Service\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Infrastructure.Service\\TokenService.cs",
+              "RelativeToolTip": "Infrastructure\\E-Commerce.Infrastructure.Service\\TokenService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T18:30:15.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Service\\Contracts\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Core\\E-Commerce.Service\\Contracts\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Service\\Contracts\\ITokenService.cs",
+              "RelativeToolTip": "Core\\E-Commerce.Service\\Contracts\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T18:20:55.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PersistanceServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\ECommerce.Persistance\\DependencyInjection\\PersistanceServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Persistance\\DependencyInjection\\PersistanceServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\ECommerce.Persistance\\DependencyInjection\\PersistanceServiceExtensions.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerce.Persistance\\DependencyInjection\\PersistanceServiceExtensions.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T17:52:34.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Presentation.API\\Controller\\AuthController.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\E-Commerce.Presentation.API\\Controller\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Infrastructure\\E-Commerce.Presentation.API\\Controller\\AuthController.cs",
+              "RelativeToolTip": "Infrastructure\\E-Commerce.Presentation.API\\Controller\\AuthController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T17:40:40.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Service\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Core\\E-Commerce.Service\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.Service\\Services\\AuthService.cs",
+              "RelativeToolTip": "Core\\E-Commerce.Service\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T17:01:07.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.ServiceAbstraction\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Core\\E-Commerce.ServiceAbstraction\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Al-Quds\\source\\repos\\E-Commerce\\Core\\E-Commerce.ServiceAbstraction\\IAuthService.cs",
+              "RelativeToolTip": "Core\\E-Commerce.ServiceAbstraction\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T16:57:41.862Z",
               "EditorCaption": ""
             }
           ]

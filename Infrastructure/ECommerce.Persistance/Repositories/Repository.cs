@@ -2,7 +2,7 @@
 
 namespace ECommerce.Persistance.Repositories;
 
-public class Repository<TEntity, TKey>(ApplicationDbContext dbContext)
+public class Repository<TEntity, TKey>(StoreDbContext dbContext)
     : IRepository<TEntity, TKey>
     where TEntity : Entity<TKey>
 {

@@ -1,9 +1,9 @@
-﻿using Microsoft.Extensions.Options;
-using System.Reflection;
+﻿using System.Reflection;
 
 namespace ECommerce.Persistance.Context;
 
-public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options)
+public class StoreDbContext(DbContextOptions<StoreDbContext> options) 
+    : DbContext(options)
 {
     public DbSet<Product> Products { get; set; }
     public DbSet<ProductBrand> ProductBrands { get; set; }

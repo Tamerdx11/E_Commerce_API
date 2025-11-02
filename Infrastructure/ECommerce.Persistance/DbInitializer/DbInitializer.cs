@@ -1,9 +1,17 @@
-﻿using E_Commerce.Domain.Entities.Products;
+﻿using E_Commerce.Domain.Entities.Auth;
+using E_Commerce.Domain.Entities.Products;
+using ECommerce.Persistance.AuthContext;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Logging;
 using System.Text.Json;
 
 namespace E_Commerce.Persistance.DbInitializer;
 
-public class DbInitializer(ApplicationDbContext appDbContext)
+public class DbInitializer(StoreDbContext appDbContext,
+    AuthDbContext authDbContext,
+    RoleManager<IdentityRole> roleManager,
+    UserManager<ApplicationUser> userManager,
+    ILogger<DbInitializer> logger)
     : IDbInitializer
 {
     public async Task InitializeAsync()
@@ -57,5 +65,40 @@ public class DbInitializer(ApplicationDbContext appDbContext)
 
 
         
+    }
+
+    public async Task InitializeAuthDbAsync()
+    {
+        await authDbContext.Database.MigrateAsync();
+
+        if (!roleManager.Roles.Any())
+        {
+            await roleManager.CreateAsync(new IdentityRole("Admin"));
+            await roleManager.CreateAsync(new IdentityRole("SuperAdmin"));
+        }
+
+        if (!userManager.Users.Any())
+        {
+            var superAdminUser = new ApplicationUser
+            {
+                DisplayName = "Super Admin",
+                Email = "SuperAdmin@gmail.com",
+                UserName = "SuperAdmin",
+                PhoneNumber = "01145132000"
+            };
+            var adminUser = new ApplicationUser
+            {
+                DisplayName = "Admin",
+                Email = "Admin@gmail.com",
+                UserName = "Admin",
+                PhoneNumber = "01140002000"
+            };
+
+            await userManager.CreateAsync(superAdminUser, "passw0rd");
+            await userManager.CreateAsync(adminUser, "passw0rd");
+            
+            await userManager.AddToRoleAsync(superAdminUser, "SuperAdmin");
+            await userManager.AddToRoleAsync(adminUser, "Admin");
+        }
     }
 }

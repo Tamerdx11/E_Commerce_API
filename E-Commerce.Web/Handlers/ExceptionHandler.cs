@@ -17,7 +17,6 @@ public class ExceptionHandler(ILogger<ExceptionHandler> logger) : IExceptionHand
             Instance = context.Request.Path,
             Status = ex switch
             {
-
                 NotFoundException => StatusCodes.Status404NotFound,
                 _ => StatusCodes.Status500InternalServerError
             }

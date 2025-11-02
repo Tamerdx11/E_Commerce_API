@@ -1,15 +1,14 @@
 using E_Commerce.Domain.Contracts;
+using E_Commerce.Infrastructure.Service;
 using E_Commerce.Service.DependencyInjection;
-using E_Commerce.Service.Services;
-using E_Commerce.ServiceAbstraction;
 using E_Commerce.Web.Handlers;
-using E_Commerce.Web.Middlewares;
-using ECommerce.Persistance.Context;
 using ECommerce.Persistance.DependencyInjection;
 using ECommerce.Persistance.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 internal class Program
 {
@@ -18,46 +17,76 @@ internal class Program
         var builder = WebApplication.CreateBuilder(args);
 
         builder.Services.AddControllers();
+
         builder.Services.AddEndpointsApiExplorer();
+
         builder.Services.AddSwaggerGen();
+
         builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
         builder.Services.AddPersistanceServices(builder.Configuration)
-            .AddApplicationServices();
+            .AddApplicationServices()
+            .AddInfrastructureServices();
+
+        builder.Services.Configure<JWTOptions>(builder.Configuration.GetSection(JWTOptions.SectionName));
+
         builder.Services.AddExceptionHandler<ExceptionHandler>();
+
         builder.Services.AddProblemDetails();
 
-        builder.Services.Configure<ApiBehaviorOptions>(opt => 
+        builder.Services.Configure<ApiBehaviorOptions>(opt =>
         {
             opt.InvalidModelStateResponseFactory = actionContext =>
             {
                 var error = actionContext.ModelState.Where(x => x.Value!.Errors.Any())
-                .ToDictionary(x => x.Key, 
-                y => y.Value!.Errors.Select(e => e.ErrorMessage).ToArray());
+                .ToDictionary(x => x.Key, y => y.Value!.Errors.Select(e => e.ErrorMessage).ToArray());
 
                 var problem = new ProblemDetails
                 {
                     Title = "VAlidation Error!",
                     Detail = "One or more validation error occurs!",
                     Status = StatusCodes.Status400BadRequest,
-                    Extensions = { { "errors",error} }
+                    Extensions = { { "errors", error } }
                 };
-
                 return new BadRequestObjectResult(problem);
             };
         });
 
+        builder.Services.AddAuthentication(options => 
+        {
+            options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+        })
+            .AddJwtBearer(options => 
+            {
+                var jwt = builder.Configuration.GetSection(JWTOptions.SectionName).Get<JWTOptions>();
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateLifetime = true,
+                    ValidateAudience = true,
+                    ValidateIssuer = true,
+                    ValidateIssuerSigningKey = true,
+                    
+                    ValidAudience = jwt.Audience,
+                    ValidIssuer = jwt.Issuer,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwt.Key))
+                };
+            });
+
         var app = builder.Build();
 
         using var scope = app.Services.CreateScope();
+
         var initializer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+
         await initializer.InitializeAsync();
+        await initializer.InitializeAuthDbAsync();
 
         ///using (var scope = app.Services.CreateScope())
         ///{
         ///    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
         ///    await db.Database.MigrateAsync();
         ///}
-
         ///app.Use(async (context, next) =>
         ///{
         ///    try
@@ -92,10 +121,12 @@ internal class Program
 
         app.UseHttpsRedirection();
 
+        app.UseAuthentication();
+
         app.UseAuthorization();
 
-
         app.MapControllers();
+
         //app.UseResponseCaching();
 
         app.Run();

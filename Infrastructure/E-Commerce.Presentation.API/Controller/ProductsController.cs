@@ -2,6 +2,7 @@
 using E_Commerce.ServiceAbstraction;
 using E_Commerce.Shared;
 using E_Commerce.Shared.DataTransferObjects.Products;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace E_Commerce.Presentation.API.Controller;
@@ -16,11 +17,12 @@ public class ProductsController(IProductService service)
         return Ok(await service.GetProductsAsync(parameters, cancellationToken));
     }
 
+    [Authorize]
     [HttpGet("{id:int}")]
     public async Task<ActionResult<ProductResponse>> Get(int id,CancellationToken cancellationToken = default)
     {
         var result = await service.GetByIdAsync(id, cancellationToken);
-        return Ok(result);
+        return HandleResult(result);
     }
     [HttpGet("Brands")]
     public async Task<ActionResult<IEnumerable<BrandResponse>>> GetBrands(CancellationToken cancellationToken = default)

@@ -1,5 +1,6 @@
 ﻿using E_Commerce.Service.Exceptions;
 using E_Commerce.Service.Specifications;
+using E_Commerce.ServiceAbstraction.Common;
 using E_Commerce.Shared;
 
 namespace E_Commerce.Service.Services;
@@ -13,11 +14,13 @@ public class ProductService(IUnitOfWork unitOfWork, IMapper mapper)
         return mapper.Map<IEnumerable<BrandResponse>>(brands);
     }
 
-    public async Task<ProductResponse?> GetByIdAsync(int id, CancellationToken cancellationToken = default)
+    public async Task<Result<ProductResponse>> GetByIdAsync(int id, CancellationToken cancellationToken = default)
     {
         var product = await unitOfWork.GetRepository<Product>()
-            .GetAsync(new ProductWithBrandTypeSpecification(id), cancellationToken) ??
-            throw new ProductNotFoundException(id);
+            .GetAsync(new ProductWithBrandTypeSpecification(id), cancellationToken);
+
+        if (product is null)
+            return Error.NotFound();
         return mapper.Map<ProductResponse>(product);
     }
 

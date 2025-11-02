@@ -10,3 +10,4 @@ C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.Domain\obj\Debug\net8.0
 C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.Domain\obj\Debug\net8.0\E-Commerce.Domain.pdb
 C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.Domain\obj\Debug\net8.0\ref\E-Commerce.Domain.dll
 C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.Domain\obj\Debug\net8.0\E-Commerce.Domain.sourcelink.json
+C:\Users\Al-Quds\source\repos\E-Commerce\Core\E-Commerce.Domain\obj\Debug\net8.0\E-Commerce.Domain.csproj.AssemblyReference.cache
