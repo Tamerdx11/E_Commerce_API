@@ -19,4 +19,7 @@ public class AuthController(IAuthService service)
         var result = await service.LoginAsync(request);
         return HandleResult(result);
     }
+    [HttpPost("CheckEmail")]
+    public async Task<ActionResult<UserResponse>> CheckEmail(string email) 
+        => Ok(await service.CheckEmailAsync(email));
 }

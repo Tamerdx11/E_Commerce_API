@@ -1,4 +1,5 @@
 ﻿using E_Commerce.Domain.Entities.Auth;
+using E_Commerce.Domain.Entities.Orders;
 using E_Commerce.Domain.Entities.Products;
 using ECommerce.Persistance.AuthContext;
 using Microsoft.AspNetCore.Identity;
@@ -50,6 +51,17 @@ public class DbInitializer(StoreDbContext appDbContext,
                 if (products is not null && products.Any())
                 {
                     await appDbContext.Products.AddRangeAsync(products);
+                    await appDbContext.SaveChangesAsync();
+                }
+            }
+            // Add DeliveryMethods
+            if (!appDbContext.DeliveryMethods.Any())
+            {
+                var deliveryMethodsData = await File.ReadAllBytesAsync(@"..\Infrastructure\ECommerce.Persistance\Context\DataSeed\delivery.json");
+                var deliveryMethods = JsonSerializer.Deserialize<List<DeliveryMethod>>(deliveryMethodsData);
+                if (deliveryMethods is not null && deliveryMethods.Count != 0)
+                {
+                    await appDbContext.DeliveryMethods.AddRangeAsync(deliveryMethods);
                     await appDbContext.SaveChangesAsync();
                 }
             }

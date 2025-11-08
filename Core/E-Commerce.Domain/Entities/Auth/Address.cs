@@ -2,8 +2,8 @@
 
 public class Address
 {
-    public ApplicationUser User { get; set; }
-    public string UserId { get; set; }
+    public ApplicationUser User { get; set; } = default!;
+    public string UserId { get; set; } = default!;
 
     public int Id { get; set; }
     public string FirstName { get; set; } = default!;

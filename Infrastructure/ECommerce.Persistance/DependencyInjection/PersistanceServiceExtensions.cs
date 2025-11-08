@@ -1,5 +1,6 @@
 ﻿using E_Commerce.Domain.Entities.Auth;
 using E_Commerce.Persistance.DbInitializer;
+using E_Commerce.Service.Services;
 using ECommerce.Persistance.AuthContext;
 using ECommerce.Persistance.Context;
 using ECommerce.Persistance.Repositories;
@@ -30,6 +31,8 @@ public static class PersistanceServiceExtensions
         services.AddScoped<ICashService, CashService>();
 
         services.AddScoped<IDbInitializer, DbInitializer>();
+
+        services.AddScoped<IOrderService, OrderService>();
 
         services.AddIdentityCore<ApplicationUser>(cfg =>
         {

@@ -2,7 +2,7 @@
 
 public class BasketItem
 {
-    public int Id { get; init; }
+    public int Id { get; init; } 
     public string Name { get; init; } = default!;
     public string PictureUrl { get; init; } = default!;
     public decimal Price { get; init; }
