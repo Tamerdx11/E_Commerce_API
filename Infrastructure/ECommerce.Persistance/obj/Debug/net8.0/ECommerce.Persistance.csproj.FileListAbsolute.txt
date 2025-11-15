@@ -14,9 +14,9 @@ C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\ECommerce.Persistance\ob
 C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\ECommerce.Persistance\obj\Debug\net8.0\ECommerce.Persistance.AssemblyInfoInputs.cache
 C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\ECommerce.Persistance\obj\Debug\net8.0\ECommerce.Persistance.AssemblyInfo.cs
 C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\ECommerce.Persistance\obj\Debug\net8.0\ECommerce.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\ECommerce.Persistance\obj\Debug\net8.0\ECommerce.Persistance.sourcelink.json
 C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\ECommerce.Persistance\obj\Debug\net8.0\ECommerc.9292B1A3.Up2Date
 C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\ECommerce.Persistance\obj\Debug\net8.0\ECommerce.Persistance.dll
 C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\ECommerce.Persistance\obj\Debug\net8.0\refint\ECommerce.Persistance.dll
 C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\ECommerce.Persistance\obj\Debug\net8.0\ECommerce.Persistance.pdb
 C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\ECommerce.Persistance\obj\Debug\net8.0\ref\ECommerce.Persistance.dll
-C:\Users\Al-Quds\source\repos\E-Commerce\Infrastructure\ECommerce.Persistance\obj\Debug\net8.0\ECommerce.Persistance.sourcelink.json

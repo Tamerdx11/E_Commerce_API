@@ -22,6 +22,8 @@ public class OrderProfile : Profile
         CreateMap<OrderItem, OrderItemDTO>()
             .ForMember(d => d.PictureUrl,
             o => o.MapFrom<OrderPictureUrlResolver>());
+
+        CreateMap<DeliveryMethod, DeliveryMethodResponse>();
     }
 }
 
